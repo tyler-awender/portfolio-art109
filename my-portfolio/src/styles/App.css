@@ -1,0 +1,19 @@
+/* App.css - Main layout container */
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* General headings */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 4rem;
+}
