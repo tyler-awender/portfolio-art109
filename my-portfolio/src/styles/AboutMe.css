@@ -1,4 +1,4 @@
-.about-me h2 {
+h2 {
   display: inline-block; /* Shrinks to fit content */
   padding: 4rem 2rem;
   text-align: center;
@@ -8,6 +8,7 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 3rem;
 }
 
 .about-me .highlight {
@@ -20,21 +21,50 @@
   display: inline-block;
 }
 
-.name {
-  font-size: 4.5rem;
-  font-weight: 650;
-  margin-bottom: 0.2rem;
-  color: #ffffff;
-  letter-spacing: 1.5px;
+
+.about-me {
+  padding: 4rem 2rem;
+  color: white;
+  background-color: #212121;
 }
 
-.tagline {
-  font-size: 1.875rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: #ffffff;
-}
-
-.title {
+.about-me .title {
+  text-align: center;
   font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about-me-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Image on left and text on right by default */
+.about-me-image {
+  width: 200%;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+}
+
+/* image below text on small screens */
+@media (max-width: 768px) {
+  .about-me-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about-me-image {
+    max-width: 80%;
+  }
+}
+
+/* Text */
+.about-me-text {
+  line-height: 1.8;
 }
