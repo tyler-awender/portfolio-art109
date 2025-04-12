@@ -11,7 +11,7 @@
   z-index: 100;
 }
 
-.logo {
+.navbar .logo {
   font-size: 1.75rem;
   font-weight: 700;
   color: #ffffff;
@@ -19,7 +19,7 @@
   background-color: #121212;
 }
 
-.nav-links {
+.navbar .nav-links {
   list-style: none;
   display: flex;
   gap: 2rem;
@@ -28,7 +28,7 @@
   padding: 0;
 }
 
-.nav-link {
+.navbar .nav-link {
   background-color: #121212;
   display: inline-block;
   color: #e0e0e0;
@@ -42,13 +42,53 @@
   will-change: transform;
 }
 
-.nav-link:hover {
+.navbar .nav-link:hover {
   background-color: var(--hover-color);
   color: #121212;
   transform: scale(1.1) rotate(-3deg);
 }
 
-.bg-li
+.navbar .bg-li
 {
   background-color: #121212;
 }
+
+/* Hamburger */
+.hamburger {
+  font-size: 1.75rem;
+  background: none;
+  border: none;
+  color: white;
+  display: none;
+  cursor: pointer;
+  z-index: 101;
+}
+
+/* Mobile Navigation Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #121212;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  .nav-links.open {
+    max-height: 300px; /* adjust based on content height */
+  }
+
+  .nav-links li {
+    text-align: right;
+    padding: 0.5rem 1rem;
+  }
+}
+

@@ -1,0 +1,40 @@
+.about-me h2 {
+  display: inline-block; /* Shrinks to fit content */
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #ffffff;
+
+  /* Center block horizontally */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-me .highlight {
+  background-color: #db5461;
+  color: #121212;
+  font-weight: 600;
+  padding: 0.1rem 0.75rem;
+  border-radius: 6px;
+  font-size: 1.25 rem;
+  display: inline-block;
+}
+
+.name {
+  font-size: 4.5rem;
+  font-weight: 650;
+  margin-bottom: 0.2rem;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+}
+
+.tagline {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 3rem;
+}
