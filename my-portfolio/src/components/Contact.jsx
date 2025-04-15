@@ -9,13 +9,13 @@ function Contact() {
       </h2>
       <p>Please contact me if you would like to connect!</p>
       <div className="social-icons">
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <a href="https://github.com/tyler-awender" target="_blank" rel="noopener noreferrer" className="social-icon">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <a href="https://linkedin.com/in/tylerawender" target="_blank" rel="noopener noreferrer" className="social-icon">
           <FaLinkedin />
         </a>
-        <a href="mailto:your-email@example.com" className="social-icon">
+        <a href="mailto:" className="social-icon">
           <FaEnvelope />
         </a>
       </div>
