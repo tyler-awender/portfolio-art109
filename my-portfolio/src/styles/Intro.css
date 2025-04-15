@@ -16,7 +16,7 @@
   font-weight: 600;
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
-  font-size: 1.25 rem;
+  font-size: 1.25rem;
   display: inline-block;
   margin-left: -28rem;
   transform: rotate(-3deg);
@@ -35,4 +35,11 @@
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: #ffffff;
+}
+
+/* reset highlight to center */
+@media (max-width: 768px) {
+  .intro .highlight {
+    margin-left: 0;
+  }
 }

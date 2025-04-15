@@ -20,7 +20,7 @@ function Navbar() {
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
         <NavItem label="About" href="#about" hoverColor="#DB5461" />
         <NavItem label="Projects" href="#projects" hoverColor="#e4acc0" />
-        <NavItem label="Technology" href="#skills" hoverColor="#6EA4BF" />
+        <NavItem label="Technology" href="#technology" hoverColor="#6EA4BF" />
         <NavItem label="Contact" href="#contact" hoverColor="#F3B700" />
       </ul>
     </nav>

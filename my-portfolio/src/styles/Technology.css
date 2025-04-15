@@ -1,0 +1,59 @@
+.technology .highlight {
+  background-color: #6ea4bf;
+  color: #121212;
+  font-weight: 600;
+  padding: 0.1rem 0.75rem;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* Main container for all categories */
+.tech-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: left;
+}
+
+/* Each category block */
+.tech-category {
+  margin-bottom: 2rem;
+}
+
+.tech-category h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* Grid of tech cards */
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tech-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* increased spacing */
+  background-color: #2a2a2a;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  min-width: 140px;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+/* Control icon appearance */
+.tech-card svg {
+  font-size: 1.4rem;
+  color: #6ea4bf; /* you can change this per category if you'd like */
+}
+
+.tech-card:hover {
+  transform: scale(1.05);
+  background-color: #3a3a3a;
+}

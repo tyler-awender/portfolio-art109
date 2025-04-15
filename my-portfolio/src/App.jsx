@@ -1,6 +1,7 @@
 // App is root component and renders other components
 // Similar to HTML body
 
+import Technology from "./components/Technology.jsx";
 import Projects from "./components/Projects.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import Navbar from "./components/Navbar.jsx";
@@ -14,6 +15,7 @@ function App() {
       <Intro />
       <AboutMe />
       <Projects />
+      <Technology />
     </>
   );
 }
