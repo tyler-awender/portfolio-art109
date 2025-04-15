@@ -1,0 +1,36 @@
+.contact h2 {
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+
+.contact .highlight {
+  background-color: #f3b700;
+  color: #121212;
+  font-weight: 600;
+  padding: 0.1rem 0.75rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icon {
+  color: #ffffff;
+  font-size: 2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #f3b700;
+}
+
+.contact p {
+  text-align: center;
+}

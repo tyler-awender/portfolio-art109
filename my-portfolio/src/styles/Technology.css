@@ -1,3 +1,9 @@
+.technology h2 {
+  margin: 0;
+  padding-bottom: 0rem;
+}
+
+
 .technology .highlight {
   background-color: #6ea4bf;
   color: #121212;

@@ -15,6 +15,7 @@ import {
   SiNodedotjs,
   SiSupabase,
   SiGit,
+  SiFlask
 } from "react-icons/si";
 
 import { FaJava } from "react-icons/fa";
@@ -90,6 +91,9 @@ function Technology() {
             </div>
             <div className="tech-card">
               <SiSupabase /> Supabase
+            </div>
+            <div className="tech-card">
+              <SiFlask /> Flask
             </div>
           </div>
         </div>
